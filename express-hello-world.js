@@ -14,5 +14,5 @@ app.get('/time', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+  console.log(`listening at: http://localhost:${port}`);
 });
